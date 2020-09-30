@@ -33,11 +33,11 @@ class App extends Component {
        <Route exact path="/">  
             <Redirect to="/home" />  
           </Route>
-         	<AboutLayoutRoute path ="http://www.michaelscrew.ie/about" component={About}/>
+         	<AboutLayoutRoute path ="/about" component={About}/>
        		<RecipeLayoutRoute path ="/recipe" component={Recipe}/>
        		<RecipepateLayoutRoute path="/recipepate" component={Recipepate}/>
        		<RecipecodLayoutRoute path ="/recipecod" component={Recipecod}/>
-       		<BlogLayoutRoute path ="http://www.michaelscrew.ie/blog" component={Blog}/>
+       		<BlogLayoutRoute path ="/blog" component={Blog}/>
        		<HomeLayoutRoute path="/home" component={Home}/>
        </Switch>
       </BrowserRouter>
